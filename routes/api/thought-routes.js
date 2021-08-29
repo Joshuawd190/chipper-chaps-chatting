@@ -117,7 +117,7 @@ router.post('/:thoughtId/reactions', (req, res) => {
     });
 });
 
-router.delete('/:thoughtId/reactions', (req, res) => {
+router.delete('/:thoughtId/reactions/:reactionId', (req, res) => {
   Thought.findOneAndUpdate(
     { _id: req.params.thoughtId },
     { $pull: { reactions: { reactionId: req.params.reactionId } } },
