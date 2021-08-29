@@ -65,7 +65,7 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-  User.findOneAndDelete({ _id: req.params.userId })
+  User.findOneAndDelete({ _id: req.params.id })
     .then((data) => {
       if (!data) {
         return res.status(404).json({ message: 'User does not exist.' });
