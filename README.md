@@ -31,6 +31,8 @@ Use insomnia or another api testing application to test functionality. You can d
 
 ## Video Demo
 
+https://drive.google.com/file/d/1BLpsM0Kepn_bgtsQZecO91H64uwZcgEt/view
+
 ## License
 
 MIT License
