@@ -113,3 +113,5 @@ router.delete('/:userId/friends/:friendId', (req, res) => {
       res.status(500).json(err);
     });
 });
+
+module.exports = router;
